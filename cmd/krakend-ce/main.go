@@ -14,6 +14,7 @@ import (
 	flexibleconfig "github.com/devopsfaith/krakend-flexibleconfig"
 	"github.com/devopsfaith/krakend-viper"
 	"github.com/devopsfaith/krakend/config"
+	_ "github.com/kpacha/martian-components/body/querystring2body"
 )
 
 const (
