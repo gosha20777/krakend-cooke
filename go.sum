@@ -482,6 +482,10 @@ github.com/keybase/go-crypto v0.0.0-20181031135447-f919bfda4fc1/go.mod h1:ghbZsc
 github.com/kisielk/gotool v1.0.0/go.mod h1:XhKaO+MFFWcvkIS/tQcRk01m1F5IRFswLeQ+oQHNcck=
 github.com/konsorten/go-windows-terminal-sequences v1.0.1 h1:mweAR1A6xJ3oS2pRaGiHgQ4OO8tzTaLawm8vnODuwDk=
 github.com/konsorten/go-windows-terminal-sequences v1.0.1/go.mod h1:T0+1ngSBFLxvqU3pZ+m/2kptfBszLMUkC4ZK/EgS/cQ=
+github.com/kpacha/krakend-http-auth v0.0.0-20171001221230-d80400af5759 h1:78s1iu5fMdXUozOMNoYbiheYPZPYYlTiW5/LLlwrH5Y=
+github.com/kpacha/krakend-http-auth v0.0.0-20171001221230-d80400af5759/go.mod h1:SCh4jxELjf+2rX1A7w66V5bUPxbP8S5jAmX1OJOYT3w=
+github.com/kpacha/martian-components v0.0.0-20190421213631-dd4d33ed4c7e h1:A8LG1a2PBSYp3rXXuDwkETq1X0hpe0UzkWlcgmm7nTQ=
+github.com/kpacha/martian-components v0.0.0-20190421213631-dd4d33ed4c7e/go.mod h1:PkXQidIDfGmOT2L8ItAwXCyAXQ3KCXdREdAmf6MMS4c=
 github.com/kpacha/opencensus-influxdb v0.0.0-20180520162117-1b490a38de4c/go.mod h1:ESXZSm2iaF+1P5o6VFEWpeARTQpcil4e1DwumnTopdg=
 github.com/kpacha/opencensus-influxdb v0.0.0-20181102202715-663e2683a27c h1:3pM6OrLfkfe0rKZjE6MHdcTaI0ohcHbRUZJeJqkvPb4=
 github.com/kpacha/opencensus-influxdb v0.0.0-20181102202715-663e2683a27c/go.mod h1:ESXZSm2iaF+1P5o6VFEWpeARTQpcil4e1DwumnTopdg=

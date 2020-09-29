@@ -56,6 +56,8 @@ require (
 	github.com/influxdata/influxdb v1.7.4 // indirect
 	github.com/influxdata/platform v0.0.0-20190117200541-d500d3cf5589 // indirect
 	github.com/jonboulle/clockwork v0.1.0 // indirect
+	github.com/kpacha/krakend-http-auth v0.0.0-20171001221230-d80400af5759
+	github.com/kpacha/martian-components v0.0.0-20190421213631-dd4d33ed4c7e
 	github.com/kpacha/opencensus-influxdb v0.0.0-20181102202715-663e2683a27c // indirect
 	github.com/letgoapp/krakend-consul v0.0.0-20190130102841-7623a4da32a1 // indirect
 	github.com/letgoapp/krakend-influx v0.0.0-20190214142340-d2fc9466bb3a

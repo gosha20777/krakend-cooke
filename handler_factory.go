@@ -4,6 +4,7 @@ import (
 	botdetector "github.com/devopsfaith/krakend-botdetector/gin"
 	"github.com/devopsfaith/krakend-jose"
 	ginjose "github.com/devopsfaith/krakend-jose/gin"
+	ginhttpauth "github.com/kpacha/krakend-http-auth/gin"
 	lua "github.com/devopsfaith/krakend-lua/router/gin"
 	metrics "github.com/devopsfaith/krakend-metrics/gin"
 	opencensus "github.com/devopsfaith/krakend-opencensus/router/gin"
@@ -17,6 +18,7 @@ func NewHandlerFactory(logger logging.Logger, metricCollector *metrics.Metrics, 
 	handlerFactory := juju.HandlerFactory
 	handlerFactory = lua.HandlerFactory(logger, handlerFactory)
 	handlerFactory = ginjose.HandlerFactory(handlerFactory, logger, rejecter)
+	handlerFactory = ginhttpauth.HandlerFactory(handlerFactory)
 	handlerFactory = metricCollector.NewHTTPHandlerFactory(handlerFactory)
 	handlerFactory = opencensus.New(handlerFactory)
 	handlerFactory = botdetector.New(handlerFactory, logger)
