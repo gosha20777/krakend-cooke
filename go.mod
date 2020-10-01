@@ -46,6 +46,7 @@ require (
 	github.com/google/btree v1.0.0 // indirect
 	github.com/google/cel-go v0.2.0 // indirect
 	github.com/gorilla/websocket v1.4.0 // indirect
+	github.com/gosha20777/krakend-cookie-auth v0.0.0-20200930142041-5fcde198b37f
 	github.com/gregjones/httpcache v0.0.0-20190611155906-901d90724c79 // indirect
 	github.com/grpc-ecosystem/go-grpc-middleware v1.0.0 // indirect
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0 // indirect
